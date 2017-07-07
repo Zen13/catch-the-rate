@@ -1,0 +1,6 @@
+framework module Pods_CatchTheRate {
+  umbrella header "Pods-CatchTheRate-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		02BDDCE2B1285A373E8FEAA3 /* Pods_CatchTheRate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 183D7CDE800DE970F91A0EC9 /* Pods_CatchTheRate.framework */; };
 		AD661EFC1F0FCD17008F5A88 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD661EFB1F0FCD17008F5A88 /* AppDelegate.swift */; };
 		AD661EFE1F0FCD17008F5A88 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD661EFD1F0FCD17008F5A88 /* ViewController.swift */; };
 		AD661F011F0FCD17008F5A88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD661EFF1F0FCD17008F5A88 /* Main.storyboard */; };
 		AD661F031F0FCD17008F5A88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD661F021F0FCD17008F5A88 /* Assets.xcassets */; };
 		AD661F061F0FCD17008F5A88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD661F041F0FCD17008F5A88 /* LaunchScreen.storyboard */; };
+		ADBF2E301F0FCE740048EEBB /* CatchData.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADBF2E2F1F0FCE740048EEBB /* CatchData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		183D7CDE800DE970F91A0EC9 /* Pods_CatchTheRate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CatchTheRate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A62FB233393C20A4C629D2DF /* Pods-CatchTheRate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CatchTheRate.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CatchTheRate/Pods-CatchTheRate.debug.xcconfig"; sourceTree = "<group>"; };
+		AC51FBF4E681752C93E93129 /* Pods-CatchTheRate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CatchTheRate.release.xcconfig"; path = "Pods/Target Support Files/Pods-CatchTheRate/Pods-CatchTheRate.release.xcconfig"; sourceTree = "<group>"; };
 		AD661EF81F0FCD16008F5A88 /* CatchTheRate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CatchTheRate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD661EFB1F0FCD17008F5A88 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AD661EFD1F0FCD17008F5A88 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +27,7 @@
 		AD661F021F0FCD17008F5A88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AD661F051F0FCD17008F5A88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AD661F071F0FCD17008F5A88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADBF2E2F1F0FCE740048EEBB /* CatchData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CatchData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +35,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02BDDCE2B1285A373E8FEAA3 /* Pods_CatchTheRate.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		92E38D9E19211EA1DF267FC0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A62FB233393C20A4C629D2DF /* Pods-CatchTheRate.debug.xcconfig */,
+				AC51FBF4E681752C93E93129 /* Pods-CatchTheRate.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		AD661EEF1F0FCD16008F5A88 = {
 			isa = PBXGroup;
 			children = (
 				AD661EFA1F0FCD16008F5A88 /* CatchTheRate */,
 				AD661EF91F0FCD16008F5A88 /* Products */,
+				92E38D9E19211EA1DF267FC0 /* Pods */,
+				F909EF7589EF7379D52664DD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,11 +75,20 @@
 				AD661EFB1F0FCD17008F5A88 /* AppDelegate.swift */,
 				AD661EFD1F0FCD17008F5A88 /* ViewController.swift */,
 				AD661EFF1F0FCD17008F5A88 /* Main.storyboard */,
+				ADBF2E2F1F0FCE740048EEBB /* CatchData.swift */,
 				AD661F021F0FCD17008F5A88 /* Assets.xcassets */,
 				AD661F041F0FCD17008F5A88 /* LaunchScreen.storyboard */,
 				AD661F071F0FCD17008F5A88 /* Info.plist */,
 			);
 			path = CatchTheRate;
+			sourceTree = "<group>";
+		};
+		F909EF7589EF7379D52664DD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				183D7CDE800DE970F91A0EC9 /* Pods_CatchTheRate.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +98,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AD661F0A1F0FCD17008F5A88 /* Build configuration list for PBXNativeTarget "CatchTheRate" */;
 			buildPhases = (
+				74365E6E7574283E3FE244E0 /* [CP] Check Pods Manifest.lock */,
 				AD661EF41F0FCD16008F5A88 /* Sources */,
 				AD661EF51F0FCD16008F5A88 /* Frameworks */,
 				AD661EF61F0FCD16008F5A88 /* Resources */,
+				6BC5DCA98EC76F870D537A0C /* [CP] Embed Pods Frameworks */,
+				63AA8932FFC08E69237022C4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -131,6 +161,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		63AA8932FFC08E69237022C4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CatchTheRate/Pods-CatchTheRate-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6BC5DCA98EC76F870D537A0C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CatchTheRate/Pods-CatchTheRate-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		74365E6E7574283E3FE244E0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AD661EF41F0FCD16008F5A88 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -138,6 +216,7 @@
 			files = (
 				AD661EFE1F0FCD17008F5A88 /* ViewController.swift in Sources */,
 				AD661EFC1F0FCD17008F5A88 /* AppDelegate.swift in Sources */,
+				ADBF2E301F0FCE740048EEBB /* CatchData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +337,7 @@
 		};
 		AD661F0B1F0FCD17008F5A88 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A62FB233393C20A4C629D2DF /* Pods-CatchTheRate.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CatchTheRate/Info.plist;
@@ -270,6 +350,7 @@
 		};
 		AD661F0C1F0FCD17008F5A88 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC51FBF4E681752C93E93129 /* Pods-CatchTheRate.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CatchTheRate/Info.plist;
@@ -299,6 +380,7 @@
 				AD661F0C1F0FCD17008F5A88 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
