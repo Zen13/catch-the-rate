@@ -13,6 +13,9 @@
 		AD661F011F0FCD17008F5A88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD661EFF1F0FCD17008F5A88 /* Main.storyboard */; };
 		AD661F031F0FCD17008F5A88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD661F021F0FCD17008F5A88 /* Assets.xcassets */; };
 		AD661F061F0FCD17008F5A88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD661F041F0FCD17008F5A88 /* LaunchScreen.storyboard */; };
+		AD66C4861F12586500E053FB /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD66C4851F12586500E053FB /* MainTableViewController.swift */; };
+		AD66C4881F125F6000E053FB /* ManagerData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD66C4871F125F6000E053FB /* ManagerData.swift */; };
+		AD66C48A1F12659800E053FB /* DetailsCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD66C4891F12659800E053FB /* DetailsCollectionViewController.swift */; };
 		ADBF2E301F0FCE740048EEBB /* CatchData.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADBF2E2F1F0FCE740048EEBB /* CatchData.swift */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +30,9 @@
 		AD661F021F0FCD17008F5A88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AD661F051F0FCD17008F5A88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AD661F071F0FCD17008F5A88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD66C4851F12586500E053FB /* MainTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
+		AD66C4871F125F6000E053FB /* ManagerData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManagerData.swift; sourceTree = "<group>"; };
+		AD66C4891F12659800E053FB /* DetailsCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsCollectionViewController.swift; sourceTree = "<group>"; };
 		ADBF2E2F1F0FCE740048EEBB /* CatchData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CatchData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -74,6 +80,9 @@
 			children = (
 				AD661EFB1F0FCD17008F5A88 /* AppDelegate.swift */,
 				AD661EFD1F0FCD17008F5A88 /* ViewController.swift */,
+				AD66C4871F125F6000E053FB /* ManagerData.swift */,
+				AD66C4891F12659800E053FB /* DetailsCollectionViewController.swift */,
+				AD66C4851F12586500E053FB /* MainTableViewController.swift */,
 				AD661EFF1F0FCD17008F5A88 /* Main.storyboard */,
 				ADBF2E2F1F0FCE740048EEBB /* CatchData.swift */,
 				AD661F021F0FCD17008F5A88 /* Assets.xcassets */,
@@ -214,7 +223,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD66C4881F125F6000E053FB /* ManagerData.swift in Sources */,
+				AD66C4861F12586500E053FB /* MainTableViewController.swift in Sources */,
 				AD661EFE1F0FCD17008F5A88 /* ViewController.swift in Sources */,
+				AD66C48A1F12659800E053FB /* DetailsCollectionViewController.swift in Sources */,
 				AD661EFC1F0FCD17008F5A88 /* AppDelegate.swift in Sources */,
 				ADBF2E301F0FCE740048EEBB /* CatchData.swift in Sources */,
 			);
